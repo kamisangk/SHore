@@ -1,0 +1,15 @@
+[server]
+http_port = 8080
+# embedded: serve built-in Web UI; disabled: API and WS only / embedded：提供内置前端；disabled：仅提供 API 与 WS
+ui_mode = "embedded"
+
+[database]
+driver = "sqlite"
+sqlite_path = "./shore.db"
+
+[security]
+jwt_secret = "change-me"
+credential_encryption_key = "change-me"
+
+[history]
+tstorage_path = "./shore-history"

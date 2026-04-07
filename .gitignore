@@ -1,0 +1,30 @@
+# Build outputs
+*.exe
+*.dll
+*.so
+*.dylib
+*.log
+
+# Databases and runtime data
+*.db
+shore-history/
+
+# Dependency and build artifacts
+**/node_modules/
+**/dist/
+**/dist-ssr/
+
+# IDE and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Temp workspace
+temp/
+.worktrees/
+shore-history/
+*.toml
+
+# Go test files
+*_test.go
